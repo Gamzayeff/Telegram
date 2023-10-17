@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\dots.png" />
+    <None Remove="Image\link.png" />
+    <None Remove="Image\list.png" />
+    <None Remove="Image\microphone.png" />
+    <None Remove="Image\people.jpg" />
+    <None Remove="Image\pin.png" />
+    <None Remove="Image\search.png" />
+    <None Remove="Image\seen.png" />
+    <None Remove="Image\smile.png" />
+    <None Remove="Image\smile2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\dots.png" />
+    <Resource Include="Image\link.png" />
+    <Resource Include="Image\list.png" />
+    <Resource Include="Image\microphone.png" />
+    <Resource Include="Image\people.jpg" />
+    <Resource Include="Image\pin.png" />
+    <Resource Include="Image\search.png" />
+    <Resource Include="Image\seen.png" />
+    <Resource Include="Image\smile.png" />
+    <Resource Include="Image\smile2.png" />
+  </ItemGroup>
+
+</Project>
